@@ -56,14 +56,8 @@ describe('Min-Max Numbers in a List: ', function () {
       it('should return [5.50,5.55] for [5.54,5.55,5.50,5.53]', function () {
         var result = findMinMax.findMinMax([5.53,5.55,5.50,5.53]);
         expect(result).toEqual([5.50,5.55])
-      });
+      });     
 
-      
-
-    });
-
-    
-
-    
+    });    
 });
 
