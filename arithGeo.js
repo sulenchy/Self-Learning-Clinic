@@ -1,9 +1,14 @@
-
+// delcaration  and implementation of  arithGeo funtion 
 exports.arithGeo = function (arr) {
-	
+	//declaration and initialisation of diff var
     var diff = arr[1] - arr[0];
+    //declaration and initialisation of ratio var
     var ratio = arr[1] / arr[0];
+
+    
     var isArithmetic = true, isGeometric = isFinite(ratio) && ratio != 0;
+
+    //testing logic
     if (arr.length == 0)
         return 0;
     else

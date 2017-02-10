@@ -1,6 +1,10 @@
+//Linking findMinMax Module to findMinMax-spec test
 var findMinMax = require("../findMinMax");
 
+// Global function that enclose other function
 describe('Min-Max Numbers in a List: ', function () {
+
+    //local function
     describe('Return the number in the list in a new list follows `[min]` when the number is the min and max number in that list', function () {
 
       it('should return [4] for [4, 4, 4, 4]', function () {
@@ -20,6 +24,7 @@ describe('Min-Max Numbers in a List: ', function () {
 
     });
 
+    //local function
     describe('Return the min and max number in the list in a new list follows `[min, max]`', function () {
 
       it('should return [1,4] for [1, 2, 3 , 4]', function () {

@@ -1,6 +1,7 @@
-
+//Linking fizzBuzz Module to fizzBuzz-spec test
 var fizzBuzz = require("../fizzBuzz");
 
+//function that enclosed test cases
 describe("Fizz Buzz tests ", function() {
 
   it("should return `Fizz` for number divisible by 3", function() {
